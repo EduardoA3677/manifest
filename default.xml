@@ -5,13 +5,13 @@
   <remote name="mp" fetch="https://gitlab.com/maitreyapatni25" revision="14" />
   <remote name="opudon15" fetch="https://github.com/opudon" revision="15" />
   <remote name="mp15" fetch="https://gitlab.com/maitreyapatni25" revision="15" />
-  <remote name="ed15" fetch="https://github.com/EduardoA3677" revision="15" />
+  <remote name="ed15" fetch="https://github.com/EduardoA3677" revision="a15" />
   <remote name="aa14" fetch="https://github.com/EduardoA3677" revision="a14" />
 
   
   <project path="device/oneplus/udon" name="risingos-udon" remote="ed15"/>
-  <project path="device/oneplus/sm8450-common" name="android_device_oneplus_sm8450-common" remote="aa14"/>
-  <project path="hardware/oplus" name="hardware_oplus" remote="opudon"/>
+  <project path="device/oneplus/sm8450-common" name="android_device_oneplus_sm8450-common" remote="ed15"/>
+  <project path="hardware/oplus" name="hardware_oplus" remote="opudon15"/>
   <project path="hardware/dolby" name="hardware_dolby" remote="opudon"/>
   <project path="kernel/oneplus/sm8450" name="android_kernel_oneplus_sm8450" remote="opudon"/>
   <project path="kernel/oneplus/sm8450-modules" name="android_kernel_oneplus_sm8450-modules" remote="opudon"/>
